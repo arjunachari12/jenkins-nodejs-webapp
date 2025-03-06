@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://github.com/your-username/jenkins-nodejs-webapp.git'
+                git 'https://github.com/arjunachari12/jenkins-nodejs-webapp.git'
             }
         }
         stage('Install Dependencies') {
